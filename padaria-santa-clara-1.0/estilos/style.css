@@ -1,0 +1,367 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+/*Logo da navbar*/
+.logo {
+    position: relative;
+    height: 90px;
+}
+
+
+/*Fundo do menu(por FORA dele)*/
+.nav1 {
+    position: relative;
+    padding: 10px 5px;
+    background-color: rgba(160, 81, 45, 0.862);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Textos e logo dentro do menu de opções*/
+.nav1 li {
+    position: relative;
+    top: 8px;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.nav1 li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+.nav1 li a:hover {
+    background-color: #8c2323;
+}
+
+/*Fundo do menu(por DENTRO dele)*/
+.tab {
+    position: relative;
+    overflow: hidden;
+    left: 50%;
+    transform: translate(-50%);
+    border: 3px solid #c0b129;
+    background-color: #f1f1f1;
+    width: 67%;
+    border-radius: 50px;
+    max-width: 100%;
+}
+
+
+/*Este código CSS estiliza os botões de uma aba/tab*/
+.tab button {
+    background-color: whitesmoke;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/*adiciona um efeito de hover aos botões da aba/tab.E cor*/
+.tab button:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+.tab button.active {
+    background-color: #ccc;
+    color: #333;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tabcontent.active {
+    display: block;
+}
+
+.tab button.active {
+    font-weight: bold;
+}
+
+.tab button {
+    background-color: #eee;
+    color: #555;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: 0.3s ease;
+}
+
+.tab button:last-child {
+    border-right: none;
+}
+
+.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.tab li:hover {
+    background-color: #f5f5f5;
+}
+
+.tab li {
+    float: left;
+}
+
+.tab li a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.tab li a.active {
+    border-bottom: 2px solid #ccc;
+}
+
+.text-center {
+    position: relative;
+    text-align: center;
+    top: 6%;
+}
+
+
+/*titulo*/
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    font-family: 'poppins', sans-serif;
+}
+
+/*Essa versão condensada combina várias propriedades relacionadas ao fundo em uma única linha, usando a propriedade background.*/
+.section1 {
+    width: 100%;
+    height: 500px;
+    background-color: #59403E;
+    background-image: url(../imagens/pratos/pao.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+}
+
+/*section1 h1 define a cor do texto dentro do elemento <h1> dentro de .section1. No caso, a cor do texto é definida como whitesmoke. Isso significa que o texto dentro do elemento <h1> será exibido em uma cor branca fumê.*/
+.section1 h1 {
+    background-color: rgba(160, 81, 45, 0.862);
+}
+
+/*section1 h2 aplica estilos aos elementos <h2> dentro de .section1*/
+.section1 h2 {
+    position: relative;
+    font-size: 40px;
+    text-align: left;
+    color: white;
+}
+
+/*.h2-section1 está sendo utilizada para aplicar estilos a elementos <h2> em um contexto específico,dentro da seção com a classe .section1*/
+.h2-section1 {
+    color: white;
+    align-items: center;
+}
+
+/*stá sendo utilizada para aplicar estilos a elementos <p> em um contexto específico,  dentro da seção com a classe .section1*/
+.p-section1 {
+    color: white;
+    font-size: 30px;
+    width: 90%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 p {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+    box-sizing: content-box;
+
+}
+
+/*está sendo utilizada para estilizar uma seção específica*/
+.section2 {
+    background-color: #F6F9FF;
+    color: black;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+    box-sizing: border-box;
+}
+
+/*está sendo utilizada para estilizar uma seção específica*/
+.card-img {
+    width: 100%;
+    max-height: 256px;
+    object-fit: cover;
+}
+
+.card {
+    width: 100%;
+    height: 256px;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+
+/*está sendo utilizada para estilizar uma seção sobre lanches e salgados*/
+.section3 {
+    background-color: rgb(209, 209, 209);
+    width: 100%;
+    height: 100vh;
+    padding: 50px 20px 20px 100px;
+    box-sizing: border-box;
+}
+
+/*está sendo utilizada para estilizar uma seção sobre sobremesas*/
+.section4 {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100vh;
+    padding: 50px 20px 20px 100px;
+    box-sizing: border-box;
+}
+
+/*A classe .whatsapp-button está sendo utilizada para estilizar um botão de WhatsApp flutuante.*/
+
+
+/*(Carrinho de compras em processo).Carrinho-button {    
+    position: fixed;
+    bottom: 700px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}*/
+
+/*A propriedade ul está sendo utilizada para estilizar uma lista não ordenada*/
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*está sendo utilizada para estilizar os itens de uma lista não ordenada que está dentro de um elemento nav*/
+nav ul li {
+    position: relative;
+
+}
+
+/*está sendo utilizada para selecionar os elementos ul que estão aninhados dentro dos itens da lista li que estão dentro do elemento nav*/
+nav ul li ul {
+    display: none;
+}
+
+/*A regra nav ul li:hover ul está sendo utilizada para selecionar os elementos ul aninhados dentro dos itens da lista li quando o item da lista está com o estado de "hover" (quando o cursor do mouse está sobre o item da lista).*/
+nav ul li:hover ul {
+    display: block;
+    position: absolute;
+    top: 50px;
+    gap: 20px;
+}
+
+/*A regra footer está sendo utilizada para estilizar o elemento <footer> do HTML*/
+footer {
+    background-color: white;
+    padding: 15px 10px;
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+    padding: 50px 20px 20px 100px;
+}
+
+/*A regra .footer-p está sendo utilizada para estilizar os elementos <p> dentro do <footer> do HTML*/
+.footer-p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    height: 50px;
+}
+
+/*está sendo utilizada para estilizar o elemento com o ID considerações-finais no HTML. */
+#considerações-finais {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 50px 20px 20px 100px;
+}
+
+/*A regra #considerações-finais está sendo utilizada para estilizar o elemento com o ID considerações-finais no HTML.*/
+.logo instagram {
+    width: 7%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#elemento-oculto {
+    display: none;
+  }
+  
+  .whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+}
+.whatsapp-card {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 2px;
+    text-align: center;
+    width: auto;
+    margin-left: px;
+    margin-right: px;
+}
+
+
+.whatsapp-helper {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    z-index: 5000;
+}
